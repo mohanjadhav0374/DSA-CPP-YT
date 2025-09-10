@@ -122,27 +122,27 @@ int main()
 
 
 // Pyramid Pattern
-{int n;
-    cout<<"Enter a number";
-    cin>>n;
-    char ch='A';
-    for(int i=0;i<n;i++)
-    {  
-        // for spaces
+// {int n;
+//     cout<<"Enter a number";
+//     cin>>n;
+//     char ch='A';
+//     for(int i=0;i<n;i++)
+//     {  
+//         // for spaces
       
-        for(int j=0;j<n-i-1;j++)
-       { cout<<" ";}
-        // for num 1
-        for(int j=1;j<=i+1;j++)
-       { cout<<ch;
-    ch++;}
+//         for(int j=0;j<n-i-1;j++)
+//        { cout<<" ";}
+//         // for num 1
+//         for(int j=1;j<=i+1;j++)
+//        { cout<<ch;
+//     ch++;}
 
-    // for num 2
-    for(int j=i;j>0;j--)
-    { cout<<ch;
-    ch++;}
-       cout<<endl;
-    }
+//     // for num 2
+//     for(int j=i;j>0;j--)
+//     { cout<<ch;
+//     ch++;}
+//        cout<<endl;
+//     }
   
-    return 0;
-}
+//     return 0;
+// }
